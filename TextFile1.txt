@@ -1,0 +1,13 @@
+Select
+--------
+IWebElement xdropdownList = driver.FindElement(By.Css("..."));
+
+SelectElement element = new SelectElement(xdropdownList);
+
+element.SelectByIndex(1);
+element.SelectByText("February");
+element.SelectByValue(2);
+==================================================================
+
+
+
